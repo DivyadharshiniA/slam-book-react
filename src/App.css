@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #bb73ef; /* Dark lavender background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.slam-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  background-color: rgb(235, 200, 252);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(197, 150, 231, 0.5); /* Shadow with lavender tint */
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #4b0082; /* Dark lavender for text */
+  border-bottom: 2px solid #4b0082;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.radio-group, .checkbox-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input, textarea, select, button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+  background-color: #f3e6ff; /* Light lavender for input background */
+  color: #4b0082; /* Dark lavender for text color */
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: auto;
+}
+
+button {
+  background-color: #4b0082;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+}
+
+button:hover {
+  background-color: #6a0dad;
+}
+
+.entries {
+  width: 400px;
+  background-color: lavender;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(197, 150, 231, 0.5);
+}
+
+.entry {
+  background-color: #f3e6ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
