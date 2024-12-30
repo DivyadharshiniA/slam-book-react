@@ -1,11 +1,35 @@
-import { Component } from "react";
-import App from "./App"
-import propsType from 'prop-types'
-function Dog({value1,value2}){
-    return(
-        <div>
-        <h1>the sum of {value1} and {value2} is {value1+value2} </h1>
-        </div>
-    )
-}
-export default Dog
+// // import propTypes from 'prop-types'  ;
+// // function rat({name})
+// // {
+// //     return(
+// //         <div>
+// //             <h1>hello rat {name}</h1>
+// //         </div>
+// //     )
+// // }
+// // export default rat
+
+// import PropTypes from 'prop-types';
+
+// function Rat({ name }) {
+//   return (
+//     <div>
+//       <h1>Hello rat {name}</h1>
+//     </div>
+//   );
+// }
+
+// Rat.propTypes = {
+//   name: PropTypes.string.isRequired,
+// };
+
+// export default Rat;
+
+
+function Dog() {
+    const name = "Buddy"; // Define the shared value
+    return name; // Return the shared value
+  }
+  
+  export default Dog;
+  
