@@ -1,10 +1,12 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import './App.css';
-import Home from './Home.jsx';
-import AboutUs from './AboutUs.jsx';
-import ContactUs from './ContactUs.jsx';
+//import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+//import './App.css';
+//import { useState, useRef, useContext } from 'react';
 
-function App() {
+//import Home from './Home.jsx';
+//import AboutUs from './AboutUs.jsx';
+//import ContactUs from './ContactUs.jsx';
+
+/*function App() {
   return (
     <Router>
       <header className="header">
@@ -34,6 +36,94 @@ function App() {
       </footer>
     </Router>
   );
+}*/
+//import React, { useState, useEffect } from 'react';
+
+//import React, { useState } from "react";
+
+//import React, { useState } from "react";
+
+ /*function App() {
+  const [inputValue, setInputValue] = useState("");
+  const [imageIndex, setImageIndex] = useState(0);
+
+  const images = [
+    "img 1.jpg",
+    "img 5.jpg",
+    "img 3.jpg",
+    "img 4.jpg",
+  ];
+
+  const handleInputChange = (e) => {
+    const newValue = e.target.value;
+    setInputValue(newValue);
+
+    if (newValue.trim() !== "") {
+      setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }
+  };
+
+  return (
+    <div>
+      
+      <input
+        type="text"
+        placeholder="Type something..."
+        value={inputValue}
+        onChange={handleInputChange}
+        style={{
+          padding: "10px",
+          margin: "20px 0",
+          fontSize: "16px",
+        }}
+      />
+      {inputValue.trim() && (
+        <div>
+          <img
+            src={images[imageIndex]}
+            alt={`Dynamic ${imageIndex}`}
+            style={{
+              display: "block",
+              marginTop: "20px",
+              borderRadius: "10px",
+            }}
+          />
+        </div>
+      )}
+    </div>
+  );
 }
 
-export default App;
+export default App;*/
+/*import React, { useState, createContext } from "react";
+import Hen from "./Hen";
+//import "./App.css";
+
+export let nameContext = createContext();
+
+function App() {
+  const [isBlackBackground, setIsBlackBackground] = useState(false);
+
+  const toggleBackground = () => {
+    setIsBlackBackground((prev) => !prev);
+  };
+
+  const appStyle = {
+    height: "100vh",
+    backgroundColor: isBlackBackground ? "black" : "white",
+    color: isBlackBackground ? "white" : "black",
+    transition: "background-color 0.5s, color 0.5s",
+  };
+
+  return (
+    <nameContext.Provider value={{ value: "water", toggleBackground, isBlackBackground }}>
+      <div style={appStyle}>
+        <Hen />
+      </div>
+    </nameContext.Provider>
+  );
+}
+
+export default App;*/
+
+
